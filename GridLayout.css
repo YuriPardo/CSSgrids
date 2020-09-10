@@ -1,3 +1,19 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container:after,
+.container:before {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
 /*Grid Layout for Desktop (940px width)*/
 .grid-1,
 .grid-2,
